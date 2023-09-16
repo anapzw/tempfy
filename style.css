@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+    background-color: #232528;
+}
+
+#container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#container {
+    background-color: #009FFD;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 50px 75px;
+    gap: 4px;
+    border-radius: 20px;
+    box-shadow: 0 8px 5px rgb(17, 17, 17);
+}
+
+#seletor {
+    padding: 8px;
+    margin: 25px 5px 6px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#valor-temp {
+    padding: 15px;
+    margin: 5px 5px 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#btn-converter {
+    background-color: #FFA400;
+    border-style: none;
+    border-radius: 18px;
+    padding: 10px;
+    margin: 5px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+#resultado {
+    margin-top: 15px;
+    display: none;
+}
+
+.resposta {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+#resposta1, #resposta2 {
+    color: #009FFD;
+}
